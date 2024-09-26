@@ -19,6 +19,8 @@ public class CalculaNominas {
 					+ "5 - Realizar una copia de seguridad");
 			opcion = sc.nextInt();
 
+			// El salario de los empleados se actualiza automáticamente en la base de datos
+			
 			switch (opcion) {
 			case 0:
 				System.out.println("Terminando programa...");
